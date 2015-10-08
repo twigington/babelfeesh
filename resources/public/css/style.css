@@ -1,3 +1,9 @@
+body {
+  background-color: powderblue;
+}
+
 h1 {
   text-decoration: underline;
+  text-align: center;
+  color: slategrey;
 }
