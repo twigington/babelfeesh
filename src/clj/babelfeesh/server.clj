@@ -17,6 +17,10 @@
 (defroutes routes
   (resources "/")
   (resources "/react" {:root "react"})
+  (GET "/hello" []
+    {:status 200
+     :headers {"Content-Type" "text/plain"}
+     :body (pr-str ["Hello" :from 'Heroku])})
   (GET "/*" req (page)))
 
 (def http-handler
