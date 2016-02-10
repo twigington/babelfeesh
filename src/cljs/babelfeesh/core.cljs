@@ -4,7 +4,7 @@
 
 (enable-console-print!)
 
-(defonce app-state (atom {:text "Hello Babelfeesh!! Check it out"}))
+(defonce app-state (atom {:text "Hello World!!"}))
 
 (defn main []
   (om/root
