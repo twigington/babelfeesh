@@ -4,7 +4,7 @@
 
 (enable-console-print!)
 
-(defonce app-state (atom {:text "Hello World!!"}))
+(defonce app-state (atom {:text "Hello Dev Networking Group!!"}))
 
 (defn main []
   (om/root

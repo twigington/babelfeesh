@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.org/twigington/babelfeesh.svg?branch=master)](https://travis-ci.org/twigington/babelfeesh)
 
+## Links
+* [Github](https://github.com/twigington/babelfeesh)
+* [Travis CI](https://travis-ci.org/twigington/babelfeesh)
+* [App](https://afternoon-crag-3065.herokuapp.com/)
+
 ## Development
 
 Open a terminal and type `lein repl` to start a Clojure REPL
